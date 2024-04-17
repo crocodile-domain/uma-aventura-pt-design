@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["public/*.html"],
+  content: ["docs/*.html"],
   theme: {
     colors: {
       'white': '#ffffff',
@@ -24,7 +24,8 @@ module.exports = {
         brandfont: "'Outfit', sans-serif",
       },
       backgroundImage: {
-        'angle': "url('/public/img/angle2.svg')",
+        'angle-yellow': "url('/docs/img/angle-yellow.svg')",
+        'angle-white': "url('/docs/img/angle-white.svg')",
       }
       
     },

@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap');
 
 * {
-  outline: 1px dashed #c5c5c5
+  outline: 1px dashed #999
 }
 
 /*
@@ -630,6 +630,14 @@ video {
   height: 1rem
 }
 
+.h-11{
+  height: 2.75rem
+}
+
+.w-full{
+  width: 100%
+}
+
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr))
 }
@@ -738,6 +746,26 @@ video {
 .bg-yellow{
   --tw-bg-opacity: 1;
   background-color: rgb(255 212 80 / var(--tw-bg-opacity))
+}
+
+.bg-angle-yellow{
+  background-image: url('/public/img/angle-yellow.svg')
+}
+
+.bg-contain{
+  background-size: contain
+}
+
+.bg-cover{
+  background-size: cover
+}
+
+.bg-center{
+  background-position: center
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat
 }
 
 .p-4{
